@@ -1,3 +1,5 @@
 def square_array(array)
-  # your code here
+  tedious = []
+  array.each{|number| tedious << number**2}
+  tedious
 end
